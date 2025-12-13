@@ -33,7 +33,7 @@ const Contact = () => {
     setLoading(true);
 
     const publicKey = "UkLAP69O0YAYD_uEK";
-    const serviceID = "service_tez2qgi";
+    const serviceID = "service_frfgnnn";
     const templateID = "template_lpzervh";
     if (!publicKey) {
       setLoading(false);

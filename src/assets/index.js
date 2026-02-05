@@ -1,5 +1,6 @@
 import backend from "./backend.png";
 import close from "./close.svg";
+import education from "./education.png";
 import creator from "./creator.png";
 import github from "./github.png";
 import live from "./live-tv.png";
@@ -22,8 +23,13 @@ import flowmazon from "./Flowmazon.png";
 import jobit from "./jobit.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import c from "./tech/c.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+import bootstrap from "./tech/bootstrap.png";
+import ai from "./tech/ai.png";
 import golang from "./tech/golang.svg";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -47,6 +53,8 @@ import NIHR from "./NIHR.png";
 import Gilbert from "./Gilbert.png";
 import Laravel from "./laravel.svg";
 import FormBuilder from "./formBuilder.jpg";
+import altostech from "./company/altos.jpg";
+import finedge from "./company/finedge.jpeg";
 
 
 
@@ -57,12 +65,18 @@ export {
   close,
   creator,
   css,
+  education,
   devbee,
   docker,
   emf,
   figma,
+  c,
   flowmazon,
   git,
+  python,
+  django,
+  bootstrap,
+  ai,
   github,
   live,
   golang,
@@ -99,5 +113,7 @@ export {
   NIHR,
   Gilbert,
   Laravel,
-  FormBuilder
+  FormBuilder,
+  altostech,
+  finedge
 };

@@ -31,7 +31,16 @@ import {
   NIHR,
   Gilbert,
   Laravel,
-  FormBuilder
+  FormBuilder,
+  python,
+  django,
+  bootstrap,
+  ai,
+  c,
+  github,
+  education,
+  altostech,
+  finedge
 } from "../assets";
 
 export const navLinks = [
@@ -44,6 +53,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -51,12 +68,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Python Developer",
+    icon: backend,
+  },
+  {
+    title: "Django Developer",
     icon: web,
   },
   {
-    title: "React Developer",
-    icon: reactjs,
+    title: "Web Developer",
+    icon: web, // Fallback if mobile is not defined, though I didn't see it in imports
   },
 ];
 
@@ -74,70 +95,83 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
   },
   {
-    name: ".NET",
-    icon: csharp,
+    name: "Django",
+    icon: django,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "C",
+    icon: c,
   },
   {
-    name: "SQL",
-    icon: sql,
+    name: "GitHub",
+    icon: github,
   },
   {
-    name: "postgreSQL",
-    icon: postGreSQL,
+    name: "AI Tools",
+    icon: ai,
+  },
+];
+
+const educations = [
+  {
+    title: "Bachelor of Computer Application",
+    company_name: "Calicut University",
+    icon: education,
+    iconBg: "#383E56",
+    date: "June 2021 - May 2024",
+    points: [
+      "Completed degree with focus on computer applications and software development.",
+    ],
   },
   {
-    name: 'Laravel',
-    icon: Laravel
-  }
+    title: "12th Standard",
+    company_name: "ST Paul's EMHSS",
+    icon: education,
+    iconBg: "#E6DEDD",
+    date: "June 2019 - March 2021",
+    points: [
+      "Completed higher secondary education in the science stream.",
+    ],
+  },
 ];
 
 const experiences = [
   {
-    title: "Internship",
-    company_name: "DevBee Inc",
-    icon: devbee,
+    title: "Developer",
+    company_name: "Altos Technology",
+    icon: altostech, // Using existing icon as placeholder
     iconBg: "#383E56",
-    date: "Jan 2024 - March 2024",
+    date: "Oct 2024 - Feb 2026",
     points: [
-      "Completed a three-month internship focused on web development and React.js.",
-      "Completed the web development course in HTML, CSS, JavaScript, and React.",
+      "Achieved end-to-end development of a new project using HTML, CSS, Python, and JavaScript.",
+      "Focused on crafting engaging and responsive front-end interfaces using HTML, CSS and JAVASCRIPT.",
+      "Optimized website performance by applying efficient coding practices and modern improvement techniques.",
+      "Utilized Git and GitHub to manage version control, streamline collaboration, and maintain clean, organized project workflows.",
     ],
   },
   {
-    title: "Front-End Developer",
-    company_name: "DevBee Inc",
-    icon: devbee,
-    iconBg: "#383E56",
-    date: "Apr 2024 - Present",
+    title: "Python Full Stack Developer (Internship)",
+    company_name: "Finedge IT Finishing School",
+    icon: finedge,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed an internship at Harithakarmasena, working on a Python-based platform built using the Django framework.",
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling.",
+      "Implemented a monthly notification feature that updates each household about their waste collection details for the respective month.",
+      "Contributed to reducing manual workload for government teams by digitizing and automating core Harithakarmasena operations.",
     ],
   },
 ];
@@ -171,98 +205,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "College(final year) Project - Form Builder",
+    name: "HARITHAKARMASENA",
     description:
-      "Form creation and Data collection process. Web Based applications, created to Customized and Data’s Managing, Purpose of Survey, feedback collection and registration. The existing system of google forms. My proposed for dynamic form builder, Features of Dynamic form field options and customizable.",
-    tags: [],
-    image: FormBuilder,
-    live_link: "https://form.io/",
-  },
-  {
-    name: "BAT(British American Tobacco)",
-    description:
-      'Global Tobacco Outlet Management Platform This project serves as the central hub for a leading tobacco outlet company, enabling seamless access to and management of data, reports, and business processes across 17 countries on a unified platform.  I contributed to this project for six months as part of Summit Solution, working on *BAT (British American Tobacco) projects. My role involved optimizing platform functionalities, enhancing data integration, and ensuring efficient workflow management to support BAT’s global operations.',
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
     tags: [
       {
-        name: "React",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "TypeScript",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "Redux Toolkit",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Ant Design",
+        name: "HTML/CSS",
         color: "pink-text-gradient",
       },
-      {
-        name: ".NET",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
     ],
-    image: BAT,
-    live_link: "https://backendconsole.azurewebsites.net/console/",
+    image: FormBuilder, // Placeholder
+    live_link: "#",
   },
-  {
-    name: "NIHR(Right4)",
-    description:
-    'NIHR Clinical Trial Recruitment & Assessment System The NIHR Clinical Trial Recruitment and Assessment System streamlines participant data collection and ensures compliance with eligibility criteria. It features 09 recruitment pages and 3 assessment pages, enforcing mandatory fields to prevent missing information.  I worked on this project from scratch, developing a secure and structured platform for managing user roles, sites, and recruitment data. The system enables seamless data entry, editing, and assessment, ensuring efficient clinical trial management while maintaining regulatory compliance.',
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React Bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "postgres",
-        color: "blue-text-gradient",
-      },
-      {
-        name: '.NET',
-        color: "blue-text-gradient",
-      }
-      
-    ],
-    image: NIHR,
-    live_link: "http://194.238.23.147:6100",
-  },
-  {
-    name: "Gilbert",
-    description:
-    "Gilbert Project is a Laravel-based logistics and order management system with role-based access for Admins, Partners, Clients, and Delivery Men. It includes real-time order tracking, bidding, subscriptions, and secure payments via Stripe. Tech Stack: Laravel, MySQL ,Key Features: Order Management, Bidding System, Subscription Plans, Multi-Role Authentication",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Laravel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "blue-text-gradient",
-      },      
-    ],
-    image: Gilbert,
-    live_link: "http://147.79.66.44/logistics/frontend-section",
-  },
- 
 ];
 
-export { experiences, projects, services, technologies, testimonials };
+export { experiences, projects, services, technologies, testimonials, educations };

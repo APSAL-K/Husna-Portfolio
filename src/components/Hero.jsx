@@ -17,15 +17,15 @@ const Hero = () => {
 
         <div className="relative">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Apsal</span>
+            Hi, I'm <span className="text-[#915EFF]">Fathima Husna</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a React front-end developer. including user interfaces
+            I am a Software Developer specialized in Python, 
             <br className="sm:block hidden" />
-            and web functionalities.
+            Django, and modern front-end technologies.
           </p>
           <a
-            href="https://drive.google.com/file/d/18fcDteZLqua-bJtfMq4RNs-vLaFRZpQz/view?usp=sharing"
+            href="https://drive.google.com/file/d/1jOSTN1CdtWZgONpk-9HMDkwaiCIncNFY/view"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,14 +42,14 @@ const Hero = () => {
       <ComputersCanvas />
       <div className="absolute left-5 top-1/2 transform -translate-y-1/2 flex flex-col gap-8">
         <a
-          href="https://github.com/APSAL-K"
+          href="https://github.com/Husna-138"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="w-10 h-10 text-white" />
         </a>
         <a
-          href="https://www.linkedin.com/in/apsal-k-330841302/"
+          href="https://www.linkedin.com/in/fathima-husna-13b602310/"
           target="_blank"
           rel="noopener noreferrer"
         >

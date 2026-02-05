@@ -32,9 +32,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const publicKey = "UkLAP69O0YAYD_uEK";
-    const serviceID = "service_frfgnnn";
-    const templateID = "template_lpzervh";
+    const publicKey = "A7XwBLxUi8y0on78G";
+    const serviceID = "service_ysp2haf";
+    const templateID = "template_a4ewrwg";
+    
     if (!publicKey) {
       setLoading(false);
       alert("Public key is missing. Please check your configuration.");
@@ -52,9 +53,9 @@ const Contact = () => {
         templateID,
         {
           from_name: form.name,
-          to_name: "Apsal FSD",
+          to_name: "Fathima Husna",
           from_email: form.email,
-          to_email: "apsal.k2004@gmail.com",
+          to_email: "fathimahusnabinthali@gmail.com",
           message: form.message,
         },
         publicKey

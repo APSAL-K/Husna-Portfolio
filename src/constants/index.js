@@ -40,7 +40,13 @@ import {
   github,
   education,
   altostech,
-  finedge
+  finedge,
+  projectBilling,
+  projectDental,
+  projectFlight,
+  projectInsurance,
+  projectTution,
+  projectPmdb,
 } from "../assets";
 
 export const navLinks = [
@@ -59,6 +65,10 @@ export const navLinks = [
   {
     id: "skills",
     title: "Skills",
+  },
+  {
+    id: "certification",
+    title: "Certifications",
   },
   {
     id: "contact",
@@ -205,7 +215,24 @@ const testimonials = [
 
 const projects = [
   {
-    name: "HARITHAKARMASENA",
+    name: "Billing Software",
+    description:
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
+    tags: [
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML/CSS/JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectBilling, // Placeholder
+    live_link: "https://github.com/Husna-138/BillingSoftware.git",
+  },
+  {
+    name: "Tuition Website",
     description:
       "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
     tags: [
@@ -218,13 +245,101 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "HTML/CSS",
+        name: "HTML/CSS/JAVASCRIPT",
         color: "pink-text-gradient",
       },
     ],
-    image: FormBuilder, // Placeholder
-    live_link: "#",
+    image: projectTution, // Placeholder
+    live_link: "https://github.com/Husna-138/TuitionWeb.git",
+  },
+  {
+    name: "Dental Clinic Management System",
+    description:
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
+    tags: [
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML/CSS/JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectDental, 
+    live_link: "https://github.com/Husna-138/DentalCollege.git",
+  },
+  {
+    name: "Flight Routes System",
+    description:
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
+    tags: [
+      {
+        name: "HTML/CSS/JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectFlight, 
+    live_link: "https://github.com/Husna-138/Flight-Routes-System.git",
+  },
+  {
+    name: "PMDB",
+    description:
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
+    tags: [
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML/CSS/JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectPmdb, 
+    live_link: "https://github.com/Husna-138/PMDB.git",
+  },
+  {
+    name: "Insurance Project",
+    description:
+      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
+    tags: [
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML/CSS/JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectInsurance, 
+    live_link: "https://github.com/Husna-138/InsuranceProject.git",
   },
 ];
 
-export { experiences, projects, services, technologies, testimonials, educations };
+const certifications = [
+  {
+    name: "PYTHON FULL STACK",
+    description:
+      "Comprehensive certification in Python Full Stack development.",
+    image: education, // Using education icon as placeholder
+    source_code_link: "https://drive.google.com/file/d/1XoN2y-yP9Piaq77qX9w6m_mJzS2P6S2P/view?usp=sharing", // Placeholder link
+  },
+  {
+    name: "APPLIED AI DEVELOPER",
+    description:
+      "Certification intensive on Applied AI development and integration.",
+    image: education,
+    source_code_link: "https://drive.google.com/file/d/1XoN2y-yP9Piaq77qX9w6m_mJzS2P6S2P/view?usp=sharing",
+  },
+  {
+    name: "DJANGO",
+    description:
+      "Specialized certification in Django Web Framework.",
+    image: education,
+    source_code_link: "https://drive.google.com/file/d/1XoN2y-yP9Piaq77qX9w6m_mJzS2P6S2P/view?usp=sharing",
+  },
+];
+
+export { experiences, projects, services, technologies, testimonials, educations, certifications };

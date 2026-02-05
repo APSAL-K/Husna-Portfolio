@@ -55,6 +55,12 @@ import Laravel from "./laravel.svg";
 import FormBuilder from "./formBuilder.jpg";
 import altostech from "./company/altos.jpg";
 import finedge from "./company/finedge.jpeg";
+import projectBilling from "./bill-pro.png";
+import projectDental from "./dental-pro.png";
+import projectFlight from "./flight-pro.png";
+import projectInsurance from "./insurance-pro.png";
+import projectTution from "./tution-pro.png";
+import projectPmdb from "./pmdb-pro.png";  
 
 
 
@@ -115,5 +121,11 @@ export {
   Laravel,
   FormBuilder,
   altostech,
-  finedge
+  finedge,
+  projectBilling,
+  projectDental,
+  projectFlight,
+  projectInsurance,
+  projectTution,
+  projectPmdb,
 };

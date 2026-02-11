@@ -228,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: projectBilling, // Placeholder
+    image: projectBilling,
     live_link: "https://github.com/Husna-138/BillingSoftware.git",
   },
   {

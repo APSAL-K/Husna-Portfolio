@@ -217,7 +217,7 @@ const projects = [
   {
     name: "Billing Software",
     description:
-      "Developed a system to manage the collection of non-biodegradable waste from households and establishments, ensuring proper routing to shredding units for recycling. Implemented a monthly notification feature that updates each household about their waste collection details.",
+      "Developed a comprehensive customer management and billing module that centralizes customer profiles, contact details, tax settings, and payment preferences. The system supports seamless creation and management of invoices, including automatic conversion of approved estimates into invoices, preserving all customer, item, tax, and discount details. It provides clear invoice tracking with status, payments, balances, and summaries, enabling efficient billing workflows and accurate financial records.",
     tags: [
       {
         name: "Django",
